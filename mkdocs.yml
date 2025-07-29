@@ -1,0 +1,142 @@
+site_name: Experience Notation
+site_url: https://experience-notation.com
+# repo_url: https://github.com/your-org/experience-notation
+# site_description: A DSL for modelling and analysing human experiences in AI, policy, healthcare and beyond.
+site_description: The official documentation website for the Experience Notation, a domain-specific language (DSL) designed to model and simulate human experiences in a structured, machine-readable format. 
+site_author: The Cato Bot Company Limited
+# site_author_url: https://yourdomain.com
+# site_logo: assets/images/logo.png
+# site_favicon: assets/images/favicon.ico
+copyright: Copyright &copy; 2025 The Cato Bot Company Limited. 
+
+
+theme:
+  name: material 
+  font:
+    text: Inter
+    code: JetBrains Mono
+  # logo: assets/images/expn-logo.svg
+  # favicon: assets/images/favicon.ico
+  features:
+    - header.autohide
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.sections
+    # - navigation.expand
+    - navigation.path
+    # - navigation.top
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+    # - search.share
+    - navigation.footer
+    - content.code.copy
+    # - content.code.select
+    - content.tabs.link
+    
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: false
+      anchor_linenums: false
+      # anchor_linenums: true
+      # line_spans: __span
+      # pygments_lang_class: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  # - pymdownx.inlinehilite
+
+
+# extra_css:
+  # - stylesheets/custom.css
+
+# plugins:
+#   - search
+extra:
+  generator: true
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/your-org/experience-notation
+      name: Experience Notation on Github
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/your-twitter-handle
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/your-linkedin-profile
+
+nav:
+  - Home: index.md
+
+  - Getting Started:
+      - What is Experience Notation?: getting-started/what-is-expn.md
+      - Core Concepts: getting-started/core-concepts.md
+      - Quick Example: getting-started/example.md
+
+  - Specification:
+    - Language Overview: spec/language-overview.md
+    - EBNF Grammar: spec/ebnf.md
+    - JSON Schema Reference: spec/json-schema.md
+    - Validation Guide: spec/validation.md  
+
+  - AI & LLM Integration:
+    - Generating Journeys with LLMs: ai/structured-prompting.md
+    - Roleplaying Personas: ai/roleplay.md
+    - Narrative Generation: ai/narrative-generation.md
+
+  - Tutorials:
+    - Syntax Primer: tutorials/syntax-primer.md
+    - Beginner Scenarios: tutorials/beginner.md
+    - Intermediate Modelling: tutorials/intermediate.md
+    - Advanced Personas: tutorials/advanced-personas.md
+    - Conditional Logic & Branching: tutorials/conditional.md
+    - Assessment: tutorials/final-assessment.md
+
+  - Examples:
+    - Overview: examples/index.md
+    - Simple Onboarding: examples/onboarding-flow.md
+    - User Decision Flow: examples/decision-flow.md
+    - Advanced Personas: examples/persona-showcase.md
+    - External Personas: examples/external-personas.md
+    - Contextual Factors: examples/context.md
+    - Modular Journeys: examples/modular.md
+    - Comprehensive CX Journey: examples/full-journey.md
+
+  - Reference:
+    - Glossary: reference/glossary.md
+    - Citation: reference/citation.md
+
+  - Contributing: contributing.md
+
