@@ -90,7 +90,6 @@ ___
 
 Experience Notation was authored by **Nikolaos Maniatis** and is maintained by **The Cato Bot Company Limited** as part of the [Context Notation](https://context-notation.com) initiative.
 
-
 For questions about:
 - Using Experience Notation in your projects
 - Contributing to development
