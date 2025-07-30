@@ -1,10 +1,8 @@
 site_name: Experience Notation
 site_url: https://experience-notation.com
-# repo_url: https://github.com/your-org/experience-notation
-# site_description: A DSL for modelling and analysing human experiences in AI, policy, healthcare and beyond.
+repo_url: https://github.com/context-notation/experience-notation
 site_description: The official documentation website for the Experience Notation, a domain-specific language (DSL) designed to model and simulate human experiences in a structured, machine-readable format. 
 site_author: The Cato Bot Company Limited
-# site_author_url: https://yourdomain.com
 # site_logo: assets/images/logo.png
 # site_favicon: assets/images/favicon.ico
 copyright: Copyright &copy; 2025 The Cato Bot Company Limited. 
@@ -90,12 +88,12 @@ extra:
   generator: true
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/your-org/experience-notation
+      link: https://github.com/context-notation/experience-notation
       name: Experience Notation on Github
-    - icon: fontawesome/brands/x-twitter
-      link: https://twitter.com/your-twitter-handle
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/your-linkedin-profile
+    # - icon: fontawesome/brands/x-twitter
+      # link: https://twitter.com/your-twitter-handle
+    # - icon: fontawesome/brands/linkedin
+      # link: https://www.linkedin.com/in/your-linkedin-profile
 
 nav:
   - Home: index.md
