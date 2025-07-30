@@ -1,6 +1,6 @@
 site_name: Experience Notation
 site_url: https://experience-notation.com
-repo_url: https://github.com/context-notation/experience-notation
+repo_url: https://github.com/context-notation/experience-notation-docs
 site_description: The official documentation website for the Experience Notation, a domain-specific language (DSL) designed to model and simulate human experiences in a structured, machine-readable format. 
 site_author: The Cato Bot Company Limited
 # site_logo: assets/images/logo.png
